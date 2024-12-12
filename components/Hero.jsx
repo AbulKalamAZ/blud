@@ -213,7 +213,7 @@ const Hero = () => {
         </div>
 
         <div className="absolute lg:relative bottom-0 overflow-hidden lg:-mt-[20vw] z-[1]">
-          {/* <motion.div
+          <motion.div
             initial={{ y: 200, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -228,15 +228,7 @@ const Hero = () => {
               alt="PoALINEster"
               className="z-10 w-full"
             />
-          </motion.div> */}
-          <Image
-            width="1000"
-            height="1000"
-            quality={100}
-            src="/crowd2.png"
-            alt="PoALINEster"
-            className="z-10 w-full"
-          />
+          </motion.div>
         </div>
       </div>
     </AnimatePresence>
