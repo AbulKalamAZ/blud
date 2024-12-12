@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "akz-BoldCond";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-BoldCondAlt";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldCondAlt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-BoldCondItalic";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldCondItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-BoldExtended";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldExtended.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-BoldExtendedItalic";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldExtendedItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-BoldItalic";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Cond";
+  src: url("../public/fonts/AkzidenzGrotesk-Cond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-CondItalic";
+  src: url("../public/fonts/AkzidenzGrotesk-CondItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Extended";
+  src: url("../public/fonts/AkzidenzGrotesk-Extended.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-ExtendedItalic";
+  src: url("../public/fonts/AkzidenzGrotesk-ExtendedItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-ExtraBold";
+  src: url("../public/fonts/AkzidenzGrotesk-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-ExtraBoldAlt";
+  src: url("../public/fonts/AkzidenzGrotesk-ExtraBoldAlt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-ExtraBoldCond";
+  src: url("../public/fonts/AkzidenzGrotesk-ExtraBoldCond.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-ExtraBoldCondAlt";
+  src: url("../public/fonts/AkzidenzGrotesk-ExtraBoldCondAlt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Light";
+  src: url("../public/fonts/AkzidenzGrotesk-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-LightCond";
+  src: url("../public/fonts/AkzidenzGrotesk-LightCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-LightExtended";
+  src: url("../public/fonts/AkzidenzGrotesk-LightExtended.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-LightOsF";
+  src: url("../public/fonts/AkzidenzGrotesk-LightOsF.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-LightSC";
+  src: url("../public/fonts/AkzidenzGrotesk-LightSC.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Medium";
+  src: url("../public/fonts/AkzidenzGrotesk-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-MediumCond";
+  src: url("../public/fonts/AkzidenzGrotesk-MediumCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-MediumCondAlt";
+  src: url("../public/fonts/AkzidenzGrotesk-MediumCondAlt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-MediumExtended";
+  src: url("../public/fonts/AkzidenzGrotesk-MediumExtended.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Regular";
+  src: url("../public/fonts/AkzidenzGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "akz-Super";
+  src: url("../public/fonts/AkzidenzGrotesk-Super.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Cramps";
+  src: url("../public/fonts/cramps.ttf") format("truetype");
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.font-Light {
+  font-family: "akz-LightOsF";
+}
+
+.font-Med {
+  font-family: "akz-Medium";
+}
+
+.font-BoldCond {
+  font-family: "akz-BoldCondAlt";
+}
+
+.font-ExtraBoldCond {
+  font-family: "akz-ExtraBoldCondAlt";
+}
+
+.font-Cramps {
+  font-family: "Cramps";
+}
+
+.background-black {
+  background-color: black;
+  color: white;
+}
+
+.background-grey {
+  background-color: #343333;
+  color: white;
+}
+
+.background-pink {
+  background-color: #ff357d;
+  color: black;
+}
+
+.background-green {
+  background-color: #698b51;
+  color: black;
+}
+
+.background-red {
+  background-color: #772631;
+  color: white;
+}
+
+.background-signup {
+  background-color: #c81851;
+  color: white;
+}
+
+.background-union {
+  background-color: #205696;
+  color: white;
+}
+
+.background-access {
+  background-color: #06325c;
+  color: white;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgb(182, 218, 250);
+
+  transform-origin: 0%;
+  z-index: 100;
+}
+
+body {
+  background-color: black;
+}
+/* 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.left-bat {
+  left: 0;
+  position: absolute !important;
+}
+
+.right-bat {
+  right: 0;
+  position: absolute !important;
+}
+
+.dom-zombie {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+}
+
+.bg-black a {
+  @apply text-mainPink;
+}
+
+@keyframes flagWave {
+  0% {
+    transform: rotate(0deg) skewX(0deg);
+  }
+  25% {
+    transform: rotate(2deg) skewX(-2deg);
+  }
+  50% {
+    transform: rotate(0deg) skewX(0deg);
+  }
+  75% {
+    transform: rotate(-2deg) skewX(2deg);
+  }
+  100% {
+    transform: rotate(0deg) skewX(0deg);
+  }
+}
+
+.flag-wave {
+  animation: flagWave 4s ease-in-out infinite;
+  transform-origin: left;
+}
